@@ -8,7 +8,7 @@ var port = 8124;
 var fastServer = function() {
 	http.createServer(function(request, response) {
 	  response.writeHead(200, {'Content-Type': 'text/plain'});
-	  response.end('Hello World\n');
+	  response.end('Hello Fast World\n');
 	}).listen(port);
 }
 
@@ -16,7 +16,7 @@ var slowServer = function() {
 	http.createServer(function(request, response) {
 	  setTimeout(function() {
 	  	response.writeHead(200, {'Content-Type': 'text/plain'});
-	  	response.end('Hello World\n');
+	  	response.end('Hello Slow World');
 	  }, 2000);
 	}).listen(port);
 }
