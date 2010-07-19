@@ -1,1 +1,19 @@
 Source code / notes / materials for the July 19, 2010 McHenry Cloud Developer's Group.
+
+=== Links
+Node http://nodejs.org/
+Node Knockout http://nodeknockout.com/
+Evented I/O and bunnies http://www.slideshare.net/simon/evented-io-based-web-servers-explained-using-bunnies
+
+
+npm (Package Management) http://github.com/isaacs/npm
+
+Twisted (python) http://twistedmatrix.com/trac/
+EventMachine (ruby) http://rubyeventmachine.com/
+AnyEvent (perl) http://search.cpan.org/~mlehmann/AnyEvent-5.271/lib/AnyEvent/Impl/Perl.pm
+
+Lazeroids http://lazeroids.com
+Nodeland http://github.com/blog/678-meet-nodeload-the-new-download-server
+Djangode http://github.com/simonw/djangode
+
+Node API http://nodejs.org/api.html

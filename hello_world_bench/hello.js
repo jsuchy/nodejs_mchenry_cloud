@@ -1,9 +1,9 @@
 // Run this from command line to load test:
-// ab -n 1000 -c 100 http://127.0.0.1:8124/
+// ab -n 1000 -c 100 http://127.0.0.1:8000/
 
 var sys = require('sys'),
   	http = require('http');
-var port = 8124;
+var port = 8000;
 
 var fastServer = function() {
 	http.createServer(function(request, response) {
@@ -24,4 +24,4 @@ var slowServer = function() {
 // fastServer();
 slowServer();
 
-sys.puts('Server running at http://127.0.0.1:' + port.toString());
+console.log('Server running at http://127.0.0.1:' + port.toString());
