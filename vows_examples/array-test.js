@@ -7,7 +7,7 @@ vows.describe('Array').addBatch({
             topic: [1, 2, 3],
 
             'has a length of 3': function (topic) {
-                assert.equal(topic.length, 3);
+                assert.equal(topic.length, 4);
             }
         },
         'with zero elements': {
